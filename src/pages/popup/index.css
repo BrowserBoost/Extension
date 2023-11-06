@@ -1,0 +1,10 @@
+body {
+  width: 340px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  font-size: 15px;
+  color: #4f4f4f;
+}

@@ -1,0 +1,16 @@
+{
+  "presets": [
+    [
+      // "@babel/preset-env"
+      "@babel/preset-react",
+      {
+        "runtime": "automatic",
+        "importSource": "react"
+      }
+    ]
+    // "react-app"
+  ],
+  "plugins": [
+    // "@babel/plugin-proposal-class-properties",
+  ]
+}
