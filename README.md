@@ -1,6 +1,6 @@
 # Browser Boost Extension
 
-Download: https://chrome.google.com/webstore/detail/akknpgblpchaoebdoiojonnahhnfgnem
+**Download:** https://chrome.google.com/webstore/detail/akknpgblpchaoebdoiojonnahhnfgnem
 
 Browser Boost is an extension that provides enhanced functionalities and improves your overall browsing experience on Chrome. Browser Boost respects its users privacy and does not collect any data.
 
@@ -16,7 +16,7 @@ Browser Boost is an extension that provides enhanced functionalities and improve
 
 💬 **Disable WebRTC:** A feature that helps in preventing potential IP address leaks through your browser.
 
-## Screenshots
+## Screenshot
 
 ![screenshot](https://raw.githubusercontent.com/BrowserBoost/extension/master/promo/screenshot2.png)
 
