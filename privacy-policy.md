@@ -16,10 +16,6 @@ As we do not collect any data, there is nothing to share with third parties.
 
 Our Extension is designed with your privacy in mind, and although it collects no data, we are committed to ensuring the security of our Extension.
 
-## 5. Changes to Our Privacy Policy
-
-We may update this policy and recommend users to review it periodically. Changes take effect immediately upon posting.
-
 ## 6. Contact Us
 
 For questions regarding this Privacy Policy, contact us at contact@browserboost.org.
