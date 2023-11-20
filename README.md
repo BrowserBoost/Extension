@@ -2,19 +2,19 @@
 
 **Download:** https://chrome.google.com/webstore/detail/akknpgblpchaoebdoiojonnahhnfgnem
 
-Browser Boost is an extension that provides enhanced functionalities and improves your overall browsing experience on Chrome. Browser Boost respects its users privacy and does not collect any data.
+The Browser Boost extension provides extra tools to enhance your browsing experience. Browser Boost is open source and collects no data.
 
 ## Features:
 
-🔊 **Boost Volume:** Amplify the sound on any tab, useful for audio or video with low default volume.
+🔊 **Boost Volume:** Increase the maximum volume of your browser up to 600%.
 
-🕵️ **Change User Agent:** Allows you to change your browser's user agent, potentially useful for web development or troubleshooting.
+🕵️ **Change User Agent:** Spoof user agent to emulate different devices or browsers.
 
-🖱️ **Enable Right Click & Select:** Useful for when you come across sites that have disabled right-click interactions. Also Facilitates text selection and copying, especially on websites where these functions are typically restricted.
+🖱️ **Enable Right Click & Select:** Force enable right clicks, copy, & text selection on sites that have disabled right-click or selection interactions.
 
-💾 **Save Image as Type:** Save images in your desired format - choose between JPG, PNG, or WebP.
+💾 **Save Image as Type:** Add context menu to save images as JPG, PNG or WebP.
 
-💬 **Disable WebRTC:** A feature that helps in preventing potential IP address leaks through your browser.
+💬 **Disable WebRTC:** Disable WebRTC requests to prevent IP address leaks.
 
 ## Screenshot
 
