@@ -14,7 +14,7 @@ Browser Boost collects no user data, does not require signup, has no servers, is
 
 🕵️ **Change User Agent:** Spoof user agent to emulate different devices or browsers.
 
-🖱️ **Enable Right Click & Select:** Force enable right clicks, copy, & text selection on sites that have disabled right-click or selection interactions.
+🖱️ **Enable Right Click & Select:** Force enable right clicks, copy, & text selection on sites that have disabled right click or selection interactions.
 
 💾 **Save Image as Type:** Add context menu to save images as JPG, PNG or WebP.
 
