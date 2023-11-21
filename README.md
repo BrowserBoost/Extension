@@ -8,7 +8,7 @@ You can rely on Browser Boost instead of having to trust multiple single-use ext
 
 Browser Boost collects no user data, does not require signup, has no servers, is entirely open source and is 100% free.
 
-## Tools:
+## Tools
 
 🔊 **Boost Volume:** Increase the maximum volume of your browser up to 600%.
 
@@ -24,7 +24,7 @@ Browser Boost collects no user data, does not require signup, has no servers, is
 
 ![screenshot](https://raw.githubusercontent.com/BrowserBoost/extension/master/promo/screenshot2.png)
 
-## Permission Justifications:
+## Permission Justifications
 
 **tabCapture:** To capture and modify the audio of a tab. Required to boost volume. 
 
@@ -46,7 +46,7 @@ Browser Boost collects no user data, does not require signup, has no servers, is
 
 **Host permission:** To trigger webNavigation on every website. Used to change user agent and enable right click & select. 
 
-## Development:
+## Development
 
 This application is built with Javascript and React.
 
