@@ -28,23 +28,23 @@ Browser Boost collects no user data, does not require signup, has no servers, is
 
 **tabCapture:** To capture and modify the audio of a tab. Required to boost volume. 
 
-**privacy:** To modify the IPHandlingPolicy. Used to disable WebRTC.
+**privacy:** To modify the IPHandlingPolicy. Required to disable WebRTC.
 
-**webNavigation:** To trigger onCommitted and onHistoryStateUpdated listener. Used to change user agent and enable right click & select. 
+**webNavigation:** To trigger onCommitted and onHistoryStateUpdated listener. Required to change user agent and enable right click & select. 
 
-**scripting:** To inject scripts into webpages. Used to change user agent and enable right click & select. 
+**scripting:** To inject scripts into webpages. Required to change user agent and enable right click & select. 
 
-**downloads:** To trigger download of modified images. Used to save Image as type.
+**downloads:** To trigger download of modified image. Required to save image as type.
 
-**contextMenus:** Add context menu option for save Image as type.
+**contextMenus:** To add option to context menu. Required to save image as type.
 
-**offscreen:** To use the tabCapture API and HTML canvas in the background service worker. Used to boost volume and save Image as type. 
+**offscreen:** To use the tabCapture API and HTML canvas in the background service worker. Required to boost volume and save Image as type. 
 
-**declarativeNetRequestWithHostAccess:** To modify user agent header. Used to change user agent
+**declarativeNetRequestWithHostAccess:** To modify user agent header. Required to change user agent
 
-**storage:** To remember user settings.
+**storage:** To store user settings.
 
-**Host permission:** To trigger webNavigation on every website. Used to change user agent and enable right click & select. 
+**Host permission:** To trigger webNavigation on every website. Required to change user agent and enable right click & select. 
 
 ## Development
 
