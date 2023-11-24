@@ -1,6 +1,10 @@
 {
-  "extName": { "message": "BB - Volume Booster, SuperCopy, Sound Booster" },
-  "extDesc": {
+  "chromeName": { "message": "BB - Volume Booster, SuperCopy, Sound Booster" },
+  "edgeName": { "message": "Browser Boost - Papildu rīki Edge" },
+  "chromeDesc": {
     "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
+  },
+  "edgeDesc": {
+    "message": "Palieliniet skaļumu, mainiet lietotāja aģentu, iespējojiet labo klikšķi, kopējiet un atlasiet, atspējojiet WebRTC un saglabājiet attēlu kā veidu (JPG, PNG un WebP)."
   }
 }

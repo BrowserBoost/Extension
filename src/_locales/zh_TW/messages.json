@@ -1,6 +1,10 @@
 {
-  "extName": { "message": "Browser Boost - Extra Tools for Chrome" },
-  "extDesc": {
-    "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
+  "chromeName": { "message": "Browser Boost - Chrome 的額外工具" },
+  "edgeName": { "message": "Browser Boost - Edge 的額外工具" },
+  "chromeDesc": {
+    "message": "提高音量、更改使用者代理、啟用右鍵、複製和選擇、停用 WebRTC 以及將圖像儲存為類型（JPG、PNG 和 WebP）。"
+  },
+  "edgeDesc": {
+    "message": "提高音量、更改使用者代理、啟用右鍵、複製和選擇、停用 WebRTC 以及將圖像儲存為類型（JPG、PNG 和 WebP）。"
   }
 }

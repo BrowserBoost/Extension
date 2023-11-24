@@ -1,6 +1,10 @@
 {
-  "extName": { "message": "Browser Boost - Extra Tools for Chrome" },
-  "extDesc": {
-    "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
+  "chromeName": { "message": "Browser Boost - Chrome के लिए अतिरिक्त उपकरण" },
+  "edgeName": { "message": "Browser Boost - Edge के लिए अतिरिक्त उपकरण" },
+  "chromeDesc": {
+    "message": "वॉल्यूम बढ़ाएं, उपयोगकर्ता एजेंट बदलें, राइट क्लिक सक्षम करें, कॉपी करें और चुनें, वेबआरटीसी अक्षम करें, और छवि को टाइप (जेपीजी, पीएनजी और वेबपी) के रूप में सहेजें।"
+  },
+  "edgeDesc": {
+    "message": "वॉल्यूम बढ़ाएं, उपयोगकर्ता एजेंट बदलें, राइट क्लिक सक्षम करें, कॉपी करें और चुनें, वेबआरटीसी अक्षम करें, और छवि को टाइप (जेपीजी, पीएनजी और वेबपी) के रूप में सहेजें।"
   }
 }

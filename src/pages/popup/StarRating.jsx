@@ -1,6 +1,7 @@
 /** @jsxImportSource theme-ui */
 import React, { useState } from 'react'
 import { Flex, Box, Link, Button } from 'theme-ui'
+import { reviewUrl } from '../../utils/constants'
 
 const StarRating = () => {
   const [hoveredStar, setHoveredStar] = useState(-1)
@@ -31,9 +32,7 @@ const StarRating = () => {
                 if (index < 3) {
                   setLowRatingClicked(true)
                 } else {
-                  window.open(
-                    'https://chrome.google.com/webstore/detail/akknpgblpchaoebdoiojonnahhnfgnem/reviews'
-                  )
+                  window.open(reviewUrl)
                 }
               }}
               sx={{ all: 'unset' }}

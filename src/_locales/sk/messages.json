@@ -1,6 +1,10 @@
 {
-  "extName": { "message": "BB - Allow Right-Click, User Agent Switcher" },
-  "extDesc": {
+  "chromeName": { "message": "BB - Allow Right-Click, User Agent Switcher" },
+  "edgeName": { "message": "Browser Boost - Extra nástroje pre Edge" },
+  "chromeDesc": {
     "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
+  },
+  "edgeDesc": {
+    "message": "Zvýšiť hlasitosť, Zmeniť používateľského agenta, Povoliť kliknutie pravým tlačidlom, Kopírovať a vybrať, Zakázať WebRTC a Uložiť obrázok ako typ (JPG, PNG a WebP)."
   }
 }

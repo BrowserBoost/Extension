@@ -1,6 +1,10 @@
 {
-  "extName": { "message": "BB - Save As PNG, JPG, or WebP. Dark Mode" },
-  "extDesc": {
+  "chromeName": { "message": "BB - Save As PNG, JPG, or WebP. Dark Mode" },
+  "edgeName": { "message": "Browser Boost - Edge साठी अतिरिक्त साधने" },
+  "chromeDesc": {
     "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
+  },
+  "edgeDesc": {
+    "message": "आवाज वाढवा, वापरकर्ता एजंट बदला, उजवे क्लिक सक्षम करा, कॉपी करा आणि निवडा, WebRTC अक्षम करा आणि प्रकार (JPG, PNG आणि WebP) म्हणून प्रतिमा जतन करा."
   }
 }

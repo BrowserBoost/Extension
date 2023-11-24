@@ -1,6 +1,10 @@
 {
-  "extName": { "message": "BB - Boost Volume, Allow Copy, Allow Paste" },
-  "extDesc": {
+  "chromeName": { "message": "BB - Boost Volume, Allow Copy, Allow Paste" },
+  "edgeName": { "message": "Browser Boost - Eines addicionals per a Edge" },
+  "chromeDesc": {
     "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
+  },
+  "edgeDesc": {
+    "message": "Augmenta el volum, canvia l'agent d'usuari, activa el clic dret, copia i selecciona, desactiva WebRTC i desa la imatge com a tipus (JPG, PNG i WebP)."
   }
 }

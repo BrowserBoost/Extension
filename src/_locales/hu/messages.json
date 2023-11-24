@@ -1,6 +1,10 @@
 {
-  "extName": { "message": "Browser Boost - Extra Tools for Chrome" },
-  "extDesc": {
-    "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
+  "chromeName": { "message": "Browser Boost - Extra Eszközök a Chrome-hez" },
+  "edgeName": { "message": "Browser Boost - Extra Eszközök a Edge-hez" },
+  "chromeDesc": {
+    "message": "Hangerő növelése, Felhasználói ügynök módosítása, Jobb kattintás engedélyezése, Másolás és kijelölés, WebRTC letiltása és Kép mentése típusként (JPG, PNG és WebP)."
+  },
+  "edgeDesc": {
+    "message": "Hangerő növelése, Felhasználói ügynök módosítása, Jobb kattintás engedélyezése, Másolás és kijelölés, WebRTC letiltása és Kép mentése típusként (JPG, PNG és WebP)."
   }
 }

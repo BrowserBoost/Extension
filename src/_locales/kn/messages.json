@@ -1,6 +1,10 @@
 {
-  "extName": { "message": "BB - Force Enable Right-Click, Disable WebRTC" },
-  "extDesc": {
+  "chromeName": { "message": "BB - Force Enable Right-Click, Disable WebRTC" },
+  "edgeName": { "message": "Browser Boost - Edge ಗಾಗಿ ಹೆಚ್ಚುವರಿ ಪರಿಕರಗಳು" },
+  "chromeDesc": {
     "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
+  },
+  "edgeDesc": {
+    "message": "ವಾಲ್ಯೂಮ್ ಬೂಸ್ಟ್ ಮಾಡಿ, ಬಳಕೆದಾರ ಏಜೆಂಟ್ ಬದಲಾಯಿಸಿ, ರೈಟ್ ಕ್ಲಿಕ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ, ನಕಲಿಸಿ ಮತ್ತು ಆಯ್ಕೆ ಮಾಡಿ, WebRTC ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ಮತ್ತು ಚಿತ್ರವನ್ನು ಪ್ರಕಾರವಾಗಿ ಉಳಿಸಿ (JPG, PNG & WebP)."
   }
 }

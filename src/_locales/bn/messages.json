@@ -1,6 +1,10 @@
 {
-  "extName": { "message": "BB- Volume Master, Super Copy, WebRTC Protect" },
-  "extDesc": {
+  "chromeName": { "message": "BB- Volume Master, Super Copy, WebRTC Protect" },
+  "edgeName": { "message": "Browser Boost - Edge এর জন্য অতিরিক্ত সরঞ্জাম" },
+  "chromeDesc": {
     "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
+  },
+  "edgeDesc": {
+    "message": "ভলিউম বুস্ট করুন, ইউজার এজেন্ট পরিবর্তন করুন, রাইট ক্লিক সক্ষম করুন, অনুলিপি করুন এবং নির্বাচন করুন, WebRTC নিষ্ক্রিয় করুন এবং চিত্র (JPG, PNG এবং WebP) হিসাবে সংরক্ষণ করুন।"
   }
 }

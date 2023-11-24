@@ -7,12 +7,17 @@
     "url": "https://github.com/BrowserBoost/Extension.git"
   },
   "scripts": {
-    "build": "node scripts/build.js",
-    "start": "node scripts/webserver.js",
+    "build-chrome": "BROWSER=chrome node scripts/build.js",
+    "start-chrome": "BROWSER=chrome node scripts/webserver.js",
+    "build-firefox": "BROWSER=firefox node scripts/build.js",
+    "start-firefox": "BROWSER=firefox node scripts/webserver.js",
+    "build-edge": "BROWSER=edge node scripts/build.js",
+    "start-edge": "BROWSER=edge node scripts/webserver.js",
     "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,json,css,scss,md}'"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
+    "merge-json": "^0.1.0-b.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "theme-ui": "^0.16.1"

@@ -1,6 +1,10 @@
 {
-  "extName": { "message": "BB - Switch User-Agent, Force Enable Paste" },
-  "extDesc": {
+  "chromeName": { "message": "BB - Switch User-Agent, Force Enable Paste" },
+  "edgeName": { "message": "Browser Boost - Edge க்கான கூடுதல் கருவிகள்" },
+  "chromeDesc": {
     "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
+  },
+  "edgeDesc": {
+    "message": "ஒலியளவை அதிகரிக்கவும், பயனர் முகவரை மாற்றவும், வலது கிளிக் செய்யவும், நகலெடு & தேர்ந்தெடுக்கவும், WebRTC ஐ முடக்கவும் மற்றும் படத்தை வகையாக சேமிக்கவும் (JPG, PNG & WebP)."
   }
 }
