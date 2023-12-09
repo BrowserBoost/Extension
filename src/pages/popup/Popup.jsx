@@ -1,6 +1,6 @@
 /** @jsxImportSource theme-ui */
 import React, { useEffect, useState } from 'react'
-import { Flex, Box, Select, Input } from 'theme-ui'
+import { Flex, Box, Select, Input, Button } from 'theme-ui'
 import OptionBox from './OptionBox'
 import StarRating from './StarRating'
 import { getUserAgentHeaderRule } from '../../utils/changeUserAgent.js'
@@ -10,7 +10,7 @@ import {
   removeSaveImageContextMenu,
 } from '../../utils/saveImageAsType.js'
 import logo from '../../assets/logo.svg'
-// import settingsIcon from '../../assets/settings.svg'
+import reloadIcon from '../../assets/reload.svg'
 
 const Popup = () => {
   const [activeTabId, setActiveTabId] = useState(null)
