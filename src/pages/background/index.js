@@ -1,6 +1,10 @@
+import { executeScript } from '../../utils/common.js'
 import { captureTab, disposeTab } from '../../utils/boostVolume.js'
 import { injectUserAgent } from '../../utils/changeUserAgent.js'
-import enableRightClick from '../../utils/enableRightClick.js'
+import {
+  enableRightClick,
+  enableAdvancedMode,
+} from '../../utils/enableRightClick.js'
 import {
   addSaveImageContextMenu,
   fetchAndConvertImageType,
@@ -37,13 +41,16 @@ chrome.contextMenus.onClicked.addListener(fetchAndConvertImageType)
 
 const webNavigationHandler = (details) => {
   chrome.storage.local.get(
-    ['userAgentValue', 'enableRightClick'],
+    ['userAgentValue', 'enableRightClick', 'enableAdvancedMode'],
     (storage) => {
       if (storage.userAgentValue) {
         injectUserAgent(details.tabId, storage.userAgentValue)
       }
       if (storage.enableRightClick) {
-        enableRightClick(details.tabId)
+        executeScript(details.tabId, enableRightClick)
+        if (storage.enableAdvancedMode) {
+          executeScript(details.tabId, enableAdvancedMode)
+        }
       }
     }
   )

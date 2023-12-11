@@ -1,41 +1,51 @@
 import React from 'react'
 import { Flex, Box, Switch } from 'theme-ui'
 
-const OptionBox = ({ title, description, onChange, checked, children }) => {
+const OptionBox = ({
+  title,
+  description,
+  onChange,
+  checked,
+  showDescription,
+  children,
+}) => {
   return (
     <Flex
       sx={{
         width: '100%',
         flexDirection: 'column',
-        pb: '14px',
-        mb: '14px',
-        borderBottom: '1px solid',
-        borderColor: 'borderGrey',
+        mt: showDescription ? '14px' : null,
+        pb: showDescription ? null : '14px',
+        mb: showDescription ? null : '14px',
+        borderBottom: showDescription ? null : '1px solid',
+        borderColor: showDescription ? null : 'borderGrey',
       }}
+      title={description}
     >
       <Flex
         sx={{
           justifyContent: 'space-between',
           alignItems: 'center',
-          mb: '10px',
           fontWeight: 'bold',
         }}
       >
-        <Box
-          sx={{
-            fontWeight: 'bold',
-          }}
-        >
-          {title}
-        </Box>
-        {children ? null : (
+        <Flex sx={{ alignItems: 'center', gap: '8px' }}>
+          <Box
+            sx={{
+              fontWeight: 'bold',
+            }}
+          >
+            {title}
+          </Box>
+        </Flex>
+        {onChange ? (
           <Box>
             <Switch
               onChange={onChange}
               checked={checked}
               sx={{
                 m: '0',
-                backgroundColor: 'darkGrey',
+                backgroundColor: 'lightGrey',
                 width: '36px',
                 height: '20px',
                 '& > div': {
@@ -48,9 +58,13 @@ const OptionBox = ({ title, description, onChange, checked, children }) => {
               }}
             />
           </Box>
-        )}
+        ) : null}
       </Flex>
-      <Box sx={{ fontSize: '12px', color: 'lightGrey' }}>{description}</Box>
+      {showDescription && (
+        <Box sx={{ fontSize: '12px', color: 'darkGrey', mt: '6px' }}>
+          {description}
+        </Box>
+      )}
       {children}
     </Flex>
   )

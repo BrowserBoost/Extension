@@ -18,6 +18,7 @@ const Popup = () => {
   const [userAgentInfo, setUserAgentInfo] = useState('browserDefault')
   const [userAgentValue, setUserAgentValue] = useState(navigator.userAgent)
   const [enableRightClick, setEnableRightClick] = useState(false)
+  const [enableAdvancedMode, setEnableAdvancedMode] = useState(false)
   const [saveImageAsType, setSaveImageAsType] = useState(false)
   const [disableWebRtc, setDisableWebRtc] = useState(false)
 
@@ -33,17 +34,20 @@ const Popup = () => {
 
     chrome.storage.local.get(
       [
-        'enableRightClick',
         'userAgentInfo',
         'userAgentValue',
+        'enableRightClick',
+        'enableAdvancedMode',
         'saveImageAsType',
         'disableWebRtc',
       ],
       (storage) => {
-        storage.enableRightClick &&
-          setEnableRightClick(storage.enableRightClick)
         storage.userAgentInfo && setUserAgentInfo(storage.userAgentInfo)
         storage.userAgentValue && setUserAgentValue(storage.userAgentValue)
+        storage.enableRightClick &&
+          setEnableRightClick(storage.enableRightClick)
+        storage.enableAdvancedMode &&
+          setEnableAdvancedMode(storage.enableAdvancedMode)
         storage.saveImageAsType && setSaveImageAsType(storage.saveImageAsType)
         storage.disableWebRtc && setDisableWebRtc(storage.disableWebRtc)
       }
@@ -127,6 +131,14 @@ const Popup = () => {
     setEnableRightClick(!enableRightClick)
   }
 
+  const toggleEnableAdvancedMode = () => {
+    chrome.storage.local.set({
+      enableAdvancedMode: !enableAdvancedMode,
+    })
+
+    setEnableAdvancedMode(!enableAdvancedMode)
+  }
+
   const toggleSaveImageAsType = () => {
     if (!saveImageAsType) {
       addSaveImageContextMenu()
@@ -171,7 +183,7 @@ const Popup = () => {
             gap: '8px',
           }}
         >
-          <img src={logo} alt="Browser Boost logo" height="20" width="20" />
+          <Image src={logo} alt="Browser Boost logo" height="20" width="20" />
           <Box
             sx={{
               fontSize: '20px',
@@ -181,7 +193,12 @@ const Popup = () => {
             Browser Boost
           </Box>
         </Flex>
-        {/* <img src={settingsIcon} alt="Settings" height="20" width="20" /> */}
+        <Button
+          onClick={() => chrome.tabs.reload()}
+          sx={{ all: 'unset', cursor: 'pointer' }}
+        >
+          <Image src={reloadIcon} alt="Reload page" height="20" width="20" />
+        </Button>
       </Flex>
       <OptionBox
         title="Boost Volume"
@@ -202,13 +219,13 @@ const Popup = () => {
             }}
           />
           <Flex sx={{ justifyContent: 'space-between' }}>
-            <Box sx={{ fontSize: '12px', color: 'lightGrey', width: '38px' }}>
+            <Box sx={{ fontSize: '12px', color: 'darkGrey', width: '38px' }}>
               0%
             </Box>
             <Box sx={{ fontSize: '12px', fontWeight: 'bold' }}>
               {Math.trunc(volume)}%
             </Box>
-            <Box sx={{ fontSize: '12px', color: 'lightGrey', width: '38px' }}>
+            <Box sx={{ fontSize: '12px', color: 'darkGrey', width: '38px' }}>
               600%
             </Box>
           </Flex>
@@ -254,9 +271,19 @@ const Popup = () => {
         description="Force enable right clicks, copy, & text selection."
         onChange={toggleEnableRightClick}
         checked={enableRightClick}
-      />
+      >
+        {enableRightClick && (
+          <OptionBox
+            title="Advanced Mode"
+            description="Advanced mode may break some websites."
+            onChange={toggleEnableAdvancedMode}
+            checked={enableAdvancedMode}
+            showDescription
+          />
+        )}
+      </OptionBox>
       <OptionBox
-        title="Save Image as Type"
+        title="Enable Save Image as Type"
         description="Add context menu to save images as JPG, PNG or WebP."
         onChange={toggleSaveImageAsType}
         checked={saveImageAsType}
