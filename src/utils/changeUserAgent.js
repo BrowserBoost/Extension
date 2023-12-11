@@ -1,23 +1,15 @@
-const injectUserAgent = (tabId, userAgentValue) => {
-  chrome.scripting.executeScript({
-    target: { tabId, allFrames: true },
-    world: 'MAIN',
-    injectImmediately: true,
-    func: (userAgentValue) => {
-      Object.defineProperty(window.navigator, 'userAgent', {
-        value: userAgentValue,
-        configurable: true,
-      })
-      Object.defineProperty(window.navigator, 'appVersion', {
-        value: userAgentValue,
-        configurable: true,
-      })
-      Object.defineProperty(window.navigator, 'userAgentData', {
-        value: undefined,
-        configurable: true,
-      })
-    },
-    args: [userAgentValue],
+const injectUserAgent = (userAgentValue) => {
+  Object.defineProperty(window.navigator, 'userAgent', {
+    value: userAgentValue,
+    configurable: true,
+  })
+  Object.defineProperty(window.navigator, 'appVersion', {
+    value: userAgentValue,
+    configurable: true,
+  })
+  Object.defineProperty(window.navigator, 'userAgentData', {
+    value: undefined,
+    configurable: true,
   })
 }
 

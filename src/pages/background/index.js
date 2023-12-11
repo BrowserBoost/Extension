@@ -1,4 +1,3 @@
-import { executeScript } from '../../utils/common.js'
 import { captureTab, disposeTab } from '../../utils/boostVolume.js'
 import { injectUserAgent } from '../../utils/changeUserAgent.js'
 import {
@@ -10,6 +9,16 @@ import {
   fetchAndConvertImageType,
   downloadImage,
 } from '../../utils/saveImageAsType.js'
+
+const executeScript = (tabId, script, args) => {
+  chrome.scripting.executeScript({
+    target: { tabId, allFrames: true },
+    world: 'MAIN',
+    injectImmediately: true,
+    func: script,
+    args: args,
+  })
+}
 
 chrome.runtime.onMessage.addListener(async (message) => {
   if (message.target !== 'background') return
@@ -44,7 +53,7 @@ const webNavigationHandler = (details) => {
     ['userAgentValue', 'enableRightClick', 'enableAdvancedMode'],
     (storage) => {
       if (storage.userAgentValue) {
-        injectUserAgent(details.tabId, storage.userAgentValue)
+        executeScript(details.tabId, injectUserAgent, [storage.userAgentValue])
       }
       if (storage.enableRightClick) {
         executeScript(details.tabId, enableRightClick)
