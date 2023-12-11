@@ -1,8 +1,8 @@
 /** @jsxImportSource theme-ui */
 import React, { useEffect, useState } from 'react'
-import { Flex, Box, Select, Input, Button } from 'theme-ui'
+import { Flex, Box, Image, Select, Input, Button } from 'theme-ui'
 import OptionBox from './OptionBox'
-import StarRating from './StarRating'
+import Footer from './Footer.jsx'
 import { getUserAgentHeaderRule } from '../../utils/changeUserAgent.js'
 import userAgents from '../../utils/userAgents.js'
 import {
@@ -267,7 +267,7 @@ const Popup = () => {
         onChange={toggleDisableWebRtc}
         checked={disableWebRtc}
       />
-      <StarRating />
+      <Footer />
     </Box>
   )
 }

@@ -1,9 +1,10 @@
 export const theme = {
   colors: {
     blue: '#3867d6',
+    text: '#4f4f4f',
     offWhite: '#FBFBFB',
-    darkGrey: '#c3c3c3',
-    lightGrey: '#909090',
+    lightGrey: '#c3c3c3',
+    darkGrey: '#747474',
     borderGrey: '#c7c7c7',
   },
   selectInput: {
@@ -15,12 +16,19 @@ export const theme = {
     transition: '0.2s',
     ':hover, :focus': {
       border: '1px solid',
-      borderColor: 'blue',
+      borderColor: 'text',
     },
   },
-  styles: {
-    a: {
-      color: 'blue',
+  links: {
+    footer: {
+      cursor: 'pointer',
+      color: 'darkGrey',
+      textDecoration: 'none',
+      transition: '0.2s',
+      ':hover': {
+        textDecoration: 'underline',
+        color: 'text',
+      },
     },
   },
 }
