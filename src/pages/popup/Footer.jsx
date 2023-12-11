@@ -35,7 +35,7 @@ const Footer = () => {
           target="_blank"
           variant="footer"
         >
-          Contact
+          Email
         </Link>
       </Flex>
     </Flex>
