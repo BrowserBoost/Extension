@@ -177,22 +177,4 @@ const enableAdvancedMode = () => {
   })
 }
 
-// const enableRightClick = (tabId) => {
-//   chrome.scripting.executeScript({
-//     target: { tabId, allFrames: true },
-//     world: 'MAIN',
-//     injectImmediately: true,
-//     func: enableRightClickScript,
-//   })
-// }
-
-// const enableAdvancedMode = (tabId) => {
-//   chrome.scripting.executeScript({
-//     target: { tabId, allFrames: true },
-//     world: 'MAIN',
-//     injectImmediately: true,
-//     func: enableAdvancedModeScript,
-//   })
-// }
-
 export { enableRightClick, enableAdvancedMode }
