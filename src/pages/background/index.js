@@ -1,14 +1,11 @@
-import { captureTab, disposeTab } from '../../utils/boostVolume.js'
-import { injectUserAgent } from '../../utils/changeUserAgent.js'
-import {
-  enableRightClick,
-  enableAdvancedMode,
-} from '../../utils/enableRightClick.js'
+import { captureTab, disposeTab } from 'utils/boostVolume.js'
+import { injectUserAgent } from 'utils/changeUserAgent.js'
+import { enableRightClick, enableAdvancedMode } from 'utils/enableRightClick.js'
 import {
   addSaveImageContextMenu,
   fetchAndConvertImageType,
   downloadImage,
-} from '../../utils/saveImageAsType.js'
+} from 'utils/saveImageAsType.js'
 
 const executeScript = (tabId, script, args) => {
   chrome.scripting.executeScript({

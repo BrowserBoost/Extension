@@ -3,14 +3,14 @@ import React, { useEffect, useState } from 'react'
 import { Flex, Box, Image, Select, Input, Button } from 'theme-ui'
 import OptionBox from './OptionBox'
 import Footer from './Footer.jsx'
-import { getUserAgentHeaderRule } from '../../utils/changeUserAgent.js'
-import userAgents from '../../utils/userAgents.js'
+import { getUserAgentHeaderRule } from 'utils/changeUserAgent.js'
+import userAgents from 'utils/userAgents.js'
 import {
   addSaveImageContextMenu,
   removeSaveImageContextMenu,
-} from '../../utils/saveImageAsType.js'
-import logo from '../../assets/logo.svg'
-import reloadIcon from '../../assets/reload.svg'
+} from 'utils/saveImageAsType.js'
+import logo from 'assets/logo.svg'
+import reloadIcon from 'assets/reload.svg'
 
 const Popup = () => {
   const [activeTabId, setActiveTabId] = useState(null)

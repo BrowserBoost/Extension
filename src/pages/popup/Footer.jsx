@@ -1,6 +1,6 @@
 import React from 'react'
 import { Flex, Link } from 'theme-ui'
-import { reviewUrl } from '../../utils/constants'
+import { reviewUrl } from 'utils/constants'
 
 const Footer = () => {
   return (
