@@ -55,17 +55,11 @@ const Popup = () => {
   }, [])
 
   useEffect(() => {
-    console.log('userAgentValue', userAgentValue)
     if (userAgentInfo !== 'browserDefault' && userAgentValue) {
-      chrome.declarativeNetRequest.updateDynamicRules(
-        {
-          addRules: [getUserAgentHeaderRule(userAgentValue)],
-          removeRuleIds: [1],
-        },
-        () => {
-          console.log('changeUserAgentHeaderRule')
-        }
-      )
+      chrome.declarativeNetRequest.updateDynamicRules({
+        addRules: [getUserAgentHeaderRule(userAgentValue)],
+        removeRuleIds: [1],
+      })
     } else {
       chrome.declarativeNetRequest.updateDynamicRules({
         removeRuleIds: [1],
