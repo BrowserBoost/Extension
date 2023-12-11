@@ -189,6 +189,7 @@ const Popup = () => {
         </Flex>
         <Button
           onClick={() => chrome.tabs.reload()}
+          title="Reload page"
           sx={{ all: 'unset', cursor: 'pointer' }}
         >
           <Image src={reloadIcon} alt="Reload page" height="20" width="20" />
