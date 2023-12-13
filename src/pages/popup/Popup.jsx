@@ -18,7 +18,7 @@ const Popup = () => {
   const [userAgentInfo, setUserAgentInfo] = useState('browserDefault')
   const [userAgentValue, setUserAgentValue] = useState(navigator.userAgent)
   const [enableRightClick, setEnableRightClick] = useState(false)
-  const [enableAdvancedMode, setEnableAdvancedMode] = useState(false)
+  const [enableAggressiveMode, setEnableAggressiveMode] = useState(false)
   const [saveImageAsType, setSaveImageAsType] = useState(false)
   const [disableWebRtc, setDisableWebRtc] = useState(false)
 
@@ -37,7 +37,7 @@ const Popup = () => {
         'userAgentInfo',
         'userAgentValue',
         'enableRightClick',
-        'enableAdvancedMode',
+        'enableAggressiveMode',
         'saveImageAsType',
         'disableWebRtc',
       ],
@@ -46,8 +46,8 @@ const Popup = () => {
         storage.userAgentValue && setUserAgentValue(storage.userAgentValue)
         storage.enableRightClick &&
           setEnableRightClick(storage.enableRightClick)
-        storage.enableAdvancedMode &&
-          setEnableAdvancedMode(storage.enableAdvancedMode)
+        storage.enableAggressiveMode &&
+          setEnableAggressiveMode(storage.enableAggressiveMode)
         storage.saveImageAsType && setSaveImageAsType(storage.saveImageAsType)
         storage.disableWebRtc && setDisableWebRtc(storage.disableWebRtc)
       }
@@ -125,12 +125,12 @@ const Popup = () => {
     setEnableRightClick(!enableRightClick)
   }
 
-  const toggleEnableAdvancedMode = () => {
+  const toggleEnableAggressiveMode = () => {
     chrome.storage.local.set({
-      enableAdvancedMode: !enableAdvancedMode,
+      enableAggressiveMode: !enableAggressiveMode,
     })
 
-    setEnableAdvancedMode(!enableAdvancedMode)
+    setEnableAggressiveMode(!enableAggressiveMode)
   }
 
   const toggleSaveImageAsType = () => {
@@ -269,10 +269,10 @@ const Popup = () => {
       >
         {enableRightClick && (
           <OptionBox
-            title="Advanced Mode"
-            description="Advanced mode may break some websites."
-            onChange={toggleEnableAdvancedMode}
-            checked={enableAdvancedMode}
+            title="Aggressive Mode"
+            description="Aggressive mode may break some websites."
+            onChange={toggleEnableAggressiveMode}
+            checked={enableAggressiveMode}
             showDescription
           />
         )}

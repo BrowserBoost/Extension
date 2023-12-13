@@ -142,7 +142,7 @@ const enableRightClick = () => {
   )
 }
 
-const enableAdvancedMode = () => {
+const enableAggressiveMode = () => {
   // Create and append a style element to the document head
   const style = document.createElement('style')
   style.type = 'text/css'
@@ -177,4 +177,4 @@ const enableAdvancedMode = () => {
   })
 }
 
-export { enableRightClick, enableAdvancedMode }
+export { enableRightClick, enableAggressiveMode }
