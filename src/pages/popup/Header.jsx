@@ -3,7 +3,7 @@ import { Flex, Box, Image, Button } from 'theme-ui'
 import logo from 'assets/logo.svg'
 import reloadIcon from 'assets/reload.svg'
 
-const Popup = () => {
+const Header = () => {
   return (
     <Flex
       sx={{
@@ -42,4 +42,4 @@ const Popup = () => {
   )
 }
 
-export default Popup
+export default Header
