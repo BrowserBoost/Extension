@@ -1,10 +1,11 @@
 /** @jsxImportSource theme-ui */
 import React, { useEffect, useState } from 'react'
 import { Flex, Box, Image, Select, Input, Button } from 'theme-ui'
+import Header from './Header'
 import OptionBox from './OptionBox'
-import Footer from './Footer.jsx'
-import { getUserAgentHeaderRule } from 'utils/changeUserAgent.js'
-import userAgents from 'utils/userAgents.js'
+import Footer from './Footer'
+import { getUserAgentHeaderRule } from 'utils/changeUserAgent'
+import userAgents from 'utils/userAgents'
 import {
   addSaveImageContextMenu,
   removeSaveImageContextMenu,
@@ -161,40 +162,7 @@ const Popup = () => {
 
   return (
     <Box sx={{ p: '14px' }}>
-      <Flex
-        sx={{
-          pb: '14px',
-          mb: '14px',
-          fontWeight: 'bold',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          borderBottom: '1px solid',
-          borderColor: 'borderGrey',
-        }}
-      >
-        <Flex
-          sx={{
-            gap: '8px',
-          }}
-        >
-          <Image src={logo} alt="Browser Boost logo" height="20" width="20" />
-          <Box
-            sx={{
-              fontSize: '20px',
-              fontWeight: 'bold',
-            }}
-          >
-            Browser Boost
-          </Box>
-        </Flex>
-        <Button
-          onClick={() => chrome.tabs.reload()}
-          title="Reload page"
-          sx={{ all: 'unset', cursor: 'pointer' }}
-        >
-          <Image src={reloadIcon} alt="Reload page" height="20" width="20" />
-        </Button>
-      </Flex>
+      <Header />
       <OptionBox
         title="Boost Volume"
         description="Increase the maximum volume of your browser (per tab)."
