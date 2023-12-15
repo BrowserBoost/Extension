@@ -1,6 +1,6 @@
 import React from 'react'
 import { Flex, Link } from 'theme-ui'
-import { reviewUrl } from 'utils/constants'
+import { reviewUrl, supportUrl } from 'utils/constants'
 
 const Footer = () => {
   return (
@@ -16,11 +16,7 @@ const Footer = () => {
         <Link href={reviewUrl} target="_blank" variant="footer">
           Rate Us
         </Link>
-        <Link
-          href="https://chromewebstore.google.com/detail/akknpgblpchaoebdoiojonnahhnfgnem/support"
-          target="_blank"
-          variant="footer"
-        >
+        <Link href={supportUrl} target="_blank" variant="footer">
           Support
         </Link>
         <Link
