@@ -1,12 +1,8 @@
 {
-  "chromeName": { "message": "BB- WebRTC Network Limiter, Force Enable Copy" },
-  "edgeName": {
-    "message": "Browser Boost - допълнителни инструменти за Edge"
+  "extName": {
+    "message": "Browser Boost - Допълнителни инструменти"
   },
-  "chromeDesc": {
-    "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
-  },
-  "edgeDesc": {
+  "extDesc": {
     "message": "Увеличаване на силата на звука, промяна на потребителския агент, активиране на щракване с десен бутон, копиране и избор, деактивиране на WebRTC и запазване на изображение като тип (JPG, PNG и WebP)."
   }
 }

@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "Browser Boost - Chrome 用の追加ツール" },
-  "edgeName": { "message": "Browser Boost - Edge 用の追加ツール" },
-  "chromeDesc": {
-    "message": "ボリュームのブースト、ユーザー エージェントの変更、右クリックの有効化、コピーと選択、WebRTC の無効化、画像の種類 (JPG、PNG、WebP) として保存。"
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - 追加のツール" },
+  "extDesc": {
     "message": "ボリュームのブースト、ユーザー エージェントの変更、右クリックの有効化、コピーと選択、WebRTC の無効化、画像の種類 (JPG、PNG、WebP) として保存。"
   }
 }

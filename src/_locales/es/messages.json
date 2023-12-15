@@ -1,14 +1,8 @@
 {
-  "chromeName": {
-    "message": "Browser Boost - Herramientas adicionales para Chrome"
+  "extName": {
+    "message": "Browser Boost - Herramientas Adicionales"
   },
-  "edgeName": {
-    "message": "Browser Boost - Herramientas adicionales para Edge"
-  },
-  "chromeDesc": {
-    "message": "Aumente el volumen, cambie el agente de usuario, habilite el clic derecho, copie y seleccione, deshabilite WebRTC y guarde la imagen como tipo (JPG, PNG y WebP)."
-  },
-  "edgeDesc": {
+  "extDesc": {
     "message": "Aumente el volumen, cambie el agente de usuario, habilite el clic derecho, copie y seleccione, deshabilite WebRTC y guarde la imagen como tipo (JPG, PNG y WebP)."
   }
 }

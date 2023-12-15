@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "Browser Boost - Extra nástroje pro Chrome" },
-  "edgeName": { "message": "Browser Boost - Extra nástroje pro Edge" },
-  "chromeDesc": {
-    "message": "Zvýšit hlasitost, Změnit uživatelského agenta, Povolit pravé kliknutí, Kopírovat a vybrat, Zakázat WebRTC a Uložit obrázek jako typ (JPG, PNG a WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - Extra Nástroje" },
+  "extDesc": {
     "message": "Zvýšit hlasitost, Změnit uživatelského agenta, Povolit pravé kliknutí, Kopírovat a vybrat, Zakázat WebRTC a Uložit obrázek jako typ (JPG, PNG a WebP)."
   }
 }

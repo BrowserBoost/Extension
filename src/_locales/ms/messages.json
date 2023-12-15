@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "BB - Change User Agent, Block WebRTC Leaks" },
-  "edgeName": { "message": "Browser Boost - Alat Tambahan untuk Edge" },
-  "chromeDesc": {
-    "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - Alat Tambahan" },
+  "extDesc": {
     "message": "Tingkatkan Kelantangan, Tukar Ejen Pengguna, Dayakan Klik Kanan, Salin & Pilih, Lumpuhkan WebRTC dan Simpan Imej sebagai Jenis (JPG, PNG & WebP)."
   }
 }

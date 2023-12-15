@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "BB - Force Enable Right Click, Allow Select" },
-  "edgeName": { "message": "Browser Boost - Edge માટે વધારાના સાધનો" },
-  "chromeDesc": {
-    "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - વધારાના સાધનો" },
+  "extDesc": {
     "message": "વોલ્યુમ બુસ્ટ કરો, વપરાશકર્તા એજન્ટ બદલો, રાઇટ ક્લિક કરો, કૉપિ કરો અને પસંદ કરો, WebRTC અક્ષમ કરો અને પ્રકાર (JPG, PNG અને WebP) તરીકે છબી સાચવો."
   }
 }

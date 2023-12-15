@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "Browser Boost - Chrome için Ekstra Araçlar" },
-  "edgeName": { "message": "Browser Boost - Edge için Ekstra Araçlar" },
-  "chromeDesc": {
-    "message": "Sesi Yükselt, Kullanıcı Aracısını Değiştir, Sağ Tıklamayı Etkinleştir, Kopyala ve Seç, WebRTC'yi Devre Dışı Bırak ve Görüntüyü Tür Olarak Kaydet (JPG, PNG ve WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - Ekstra Araçlar" },
+  "extDesc": {
     "message": "Sesi Yükselt, Kullanıcı Aracısını Değiştir, Sağ Tıklamayı Etkinleştir, Kopyala ve Seç, WebRTC'yi Devre Dışı Bırak ve Görüntüyü Tür Olarak Kaydet (JPG, PNG ve WebP)."
   }
 }

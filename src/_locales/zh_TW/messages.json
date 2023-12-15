@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "Browser Boost - Chrome 的額外工具" },
-  "edgeName": { "message": "Browser Boost - Edge 的額外工具" },
-  "chromeDesc": {
-    "message": "提高音量、更改使用者代理、啟用右鍵、複製和選擇、停用 WebRTC 以及將圖像儲存為類型（JPG、PNG 和 WebP）。"
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - 額外工具" },
+  "extDesc": {
     "message": "提高音量、更改使用者代理、啟用右鍵、複製和選擇、停用 WebRTC 以及將圖像儲存為類型（JPG、PNG 和 WebP）。"
   }
 }

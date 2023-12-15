@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "BB- Switch User Agent, Control WebRTC Control" },
-  "edgeName": { "message": "Browser Boost - ተጨማሪ መሣሪያዎች ለ Edge" },
-  "chromeDesc": {
-    "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - ተጨማሪ መሳሪያዎች" },
+  "extDesc": {
     "message": "ድምጽን ያሳድጉ፣ የተጠቃሚ ወኪል ይቀይሩ፣ ቀኝ ጠቅ ያድርጉ፣ ይቅዱ እና ይምረጡ፣ WebRTCን ያሰናክሉ እና ምስልን እንደ አይነት (JPG፣ PNG እና WebP) ያስቀምጡ።"
   }
 }

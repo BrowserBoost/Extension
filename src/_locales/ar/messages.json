@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "Browser Boost - أدوات إضافية لمتصفح Chrome" },
-  "edgeName": { "message": "Browser Boost - أدوات إضافية لمتصفح Edge" },
+  "extName": { "message": "Browser Boost - أدوات إضافية" },
   "extDesc": {
-    "message": "زيادة الحجم وتغيير وكيل المستخدم وتمكين النقر بزر الماوس الأيمن والنسخ والتحديد وتعطيل WebRTC وحفظ الصورة كنوع (JPG وPNG وWebP)."
-  },
-  "edgeDesc": {
     "message": "زيادة الحجم وتغيير وكيل المستخدم وتمكين النقر بزر الماوس الأيمن والنسخ والتحديد وتعطيل WebRTC وحفظ الصورة كنوع (JPG وPNG وWebP)."
   }
 }

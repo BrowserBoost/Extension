@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "Browser Boost - כלים נוספים עבור Chrome" },
-  "edgeName": { "message": "Browser Boost - כלים נוספים עבור Edge" },
-  "chromeDesc": {
-    "message": "הגברת נפח, שנה סוכן משתמש, הפעל קליק ימני, העתק ובחירה, השבת את WebRTC ושמור תמונה כסוג (JPG, PNG ו-WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - כלים נוספים" },
+  "extDesc": {
     "message": "הגברת נפח, שנה סוכן משתמש, הפעל קליק ימני, העתק ובחירה, השבת את WebRTC ושמור תמונה כסוג (JPG, PNG ו-WebP)."
   }
 }

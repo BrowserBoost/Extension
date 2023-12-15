@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "BB - User-Agent Switcher, Force Enable Select" },
-  "edgeName": { "message": "Browser Boost - Dodatna orodja za Edge" },
-  "chromeDesc": {
-    "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - Dodatna Orodja" },
+  "extDesc": {
     "message": "Povečaj glasnost, spremeni uporabniškega agenta, omogoči desni klik, kopiraj in izberi, onemogoči WebRTC in shrani sliko kot vrsto (JPG, PNG in WebP)."
   }
 }

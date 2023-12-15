@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "Browser Boost - EZusätzliche Tools für Chrome" },
-  "edgeName": { "message": "Browser Boost - EZusätzliche Tools für Edge" },
-  "chromeDesc": {
-    "message": "Erhöhen Sie die Lautstärke, ändern Sie den Benutzeragenten, aktivieren Sie Rechtsklick, Kopieren und Auswählen, deaktivieren Sie WebRTC und speichern Sie das Bild als Typ (JPG, PNG und WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - Zusätzliche Werkzeuge" },
+  "extDesc": {
     "message": "Erhöhen Sie die Lautstärke, ändern Sie den Benutzeragenten, aktivieren Sie Rechtsklick, Kopieren und Auswählen, deaktivieren Sie WebRTC und speichern Sie das Bild als Typ (JPG, PNG und WebP)."
   }
 }

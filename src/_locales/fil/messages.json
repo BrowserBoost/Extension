@@ -1,12 +1,6 @@
 {
-  "chromeName": {
-    "message": "Browser Boost - Mga Dagdag na Tool para sa Chrome"
-  },
-  "edgeName": { "message": "Browser Boost - Mga Dagdag na Tool para sa Edge" },
-  "chromeDesc": {
-    "message": "Palakasin ang Volume, Baguhin ang User Agent, I-enable ang Right Click, Kopyahin at Piliin, I-disable ang WebRTC, at I-save ang Imahe bilang Uri (JPG, PNG & WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - Mga Dagdag na Tool" },
+  "extDesc": {
     "message": "Palakasin ang Volume, Baguhin ang User Agent, I-enable ang Right Click, Kopyahin at Piliin, I-disable ang WebRTC, at I-save ang Imahe bilang Uri (JPG, PNG & WebP)."
   }
 }

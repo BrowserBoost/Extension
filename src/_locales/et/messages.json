@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "Browser Boost - Lisatööriistad Chrome Jaoks" },
-  "edgeName": { "message": "Browser Boost - Lisatööriistad Edge Jaoks" },
-  "chromeDesc": {
-    "message": "Suurendage helitugevust, muutke kasutajaagenti, lubage paremklõps, kopeerige ja valige, keelake WebRTC ja salvestage pilt tüübina (JPG, PNG ja WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - Lisatööriistad" },
+  "extDesc": {
     "message": "Suurendage helitugevust, muutke kasutajaagenti, lubage paremklõps, kopeerige ja valige, keelake WebRTC ja salvestage pilt tüübina (JPG, PNG ja WebP)."
   }
 }

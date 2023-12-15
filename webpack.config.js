@@ -38,15 +38,15 @@ function combineManifests(commonConfigPath, browserSpecificConfigPath) {
   //   fs.readFileSync(browserSpecificConfigPath, 'utf8')
   // )
 
-  let manifestName, manifestDescription
+  // let manifestName, manifestDescription
 
-  if (BROWSER === 'chrome') {
-    manifestName = '__MSG_chromeName__'
-    manifestDescription = '__MSG_chromeDesc__'
-  } else if (BROWSER === 'edge') {
-    manifestName = '__MSG_edgeName__'
-    manifestDescription = '__MSG_edgeDesc__'
-  }
+  // if (BROWSER === 'chrome') {
+  //   manifestName = '__MSG_chromeName__'
+  //   manifestDescription = '__MSG_chromeDesc__'
+  // } else if (BROWSER === 'edge') {
+  //   manifestName = '__MSG_edgeName__'
+  //   manifestDescription = '__MSG_edgeDesc__'
+  // }
 
   // "description": "__MSG_extDesc__",
 
@@ -56,13 +56,13 @@ function combineManifests(commonConfigPath, browserSpecificConfigPath) {
   // const manifest = merge.merge(commonConfig, browserSpecificConfig)
 
   return JSON.stringify(
-    merge.merge(
-      {
-        name: manifestName,
-        description: manifestDescription,
-      },
-      commonConfig
-    )
+    // merge.merge(
+    // {
+    //   name: manifestName,
+    //   description: manifestDescription,
+    // },
+    commonConfig
+    // )
   )
 }
 

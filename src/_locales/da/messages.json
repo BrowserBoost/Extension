@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "Browser Boost - Ekstra værktøjer til  Chrome" },
-  "edgeName": { "message": "Browser Boost - Ekstra værktøjer til  Edge" },
-  "chromeDesc": {
-    "message": "Forøg volumen, Skift brugeragent, Aktiver højreklik, Kopier og vælg, Deaktiver WebRTC og Gem billede som type (JPG, PNG & WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - Ekstra Værktøjer" },
+  "extDesc": {
     "message": "Forøg volumen, Skift brugeragent, Aktiver højreklik, Kopier og vælg, Deaktiver WebRTC og Gem billede som type (JPG, PNG & WebP)."
   }
 }

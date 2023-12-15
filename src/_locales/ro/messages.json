@@ -1,14 +1,8 @@
 {
-  "chromeName": {
-    "message": "Browser Boost - Instrumente suplimentare pentru  Chrome"
+  "extName": {
+    "message": "Browser Boost - Instrumente Suplimentare"
   },
-  "edgeName": {
-    "message": "Browser Boost - Instrumente suplimentare pentru  Edge"
-  },
-  "chromeDesc": {
-    "message": "Creșteți volumul, schimbați agentul utilizatorului, activați clic dreapta, copiați și selectați, dezactivați WebRTC și salvați imaginea ca tip (JPG, PNG și WebP)."
-  },
-  "edgeDesc": {
+  "extDesc": {
     "message": "Creșteți volumul, schimbați agentul utilizatorului, activați clic dreapta, copiați și selectați, dezactivați WebRTC și salvați imaginea ca tip (JPG, PNG și WebP)."
   }
 }

@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "Browser Boost - ابزار اضافی برای Chrome" },
-  "edgeName": { "message": "Browser Boost - ابزار اضافی برای Edge" },
-  "chromeDesc": {
-    "message": "افزایش صدا، تغییر عامل کاربر، فعال کردن کلیک راست، کپی و انتخاب، غیرفعال کردن WebRTC و ذخیره تصویر به عنوان نوع (JPG، PNG و WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - ابزار اضافی" },
+  "extDesc": {
     "message": "افزایش صدا، تغییر عامل کاربر، فعال کردن کلیک راست، کپی و انتخاب، غیرفعال کردن WebRTC و ذخیره تصویر به عنوان نوع (JPG، PNG و WebP)."
   }
 }

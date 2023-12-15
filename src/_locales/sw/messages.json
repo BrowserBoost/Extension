@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "BB - Save Image as Type, Allow Right Click" },
-  "edgeName": { "message": "Browser Boost - Zana za Ziada za Edge" },
-  "chromeDesc": {
-    "message": "Boost Volume, Change User Agent, Enable Right Click, Copy & Select, Disable WebRTC, and Save Image as Type (JPG, PNG & WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost" },
+  "extDesc": {
     "message": "Ongeza Sauti, Badilisha Wakala wa Mtumiaji, Washa Bofya Kulia, Nakili & Chagua, Zima WebRTC, na Hifadhi Picha kama Aina (JPG, PNG & WebP)."
   }
 }

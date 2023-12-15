@@ -1,10 +1,6 @@
 {
-  "chromeName": { "message": "Browser Boost - เครื่องมือพิเศษสำหรับ Chrome" },
-  "edgeName": { "message": "Browser Boost - เครื่องมือพิเศษสำหรับ Edge" },
-  "chromeDesc": {
-    "message": "เพิ่มระดับเสียง เปลี่ยนตัวแทนผู้ใช้ เปิดใช้งานการคลิกขวา คัดลอกและเลือก ปิดใช้งาน WebRTC และบันทึกรูปภาพเป็นประเภท (JPG, PNG และ WebP)."
-  },
-  "edgeDesc": {
+  "extName": { "message": "Browser Boost - เครื่องมือพิเศษ" },
+  "extDesc": {
     "message": "เพิ่มระดับเสียง เปลี่ยนตัวแทนผู้ใช้ เปิดใช้งานการคลิกขวา คัดลอกและเลือก ปิดใช้งาน WebRTC และบันทึกรูปภาพเป็นประเภท (JPG, PNG และ WebP)."
   }
 }
