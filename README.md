@@ -1,6 +1,9 @@
 # Browser Boost Extension
 
-**Download:** https://chrome.google.com/webstore/detail/akknpgblpchaoebdoiojonnahhnfgnem
+**Chrome Download:** https://chrome.google.com/webstore/detail/akknpgblpchaoebdoiojonnahhnfgnem
+
+**Edge Download:** https://microsoftedge.microsoft.com/addons/detail/jehejlgggbhdemlekhoicodollcjnjig
+
 
 The Browser Boost extension provides an open-source, privacy respecting alternative to numerous single-use extensions.
 
