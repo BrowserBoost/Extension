@@ -1,0 +1,9 @@
+:root {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  font-size: 14px;
+  color: var(--theme-ui-colors-text);
+}

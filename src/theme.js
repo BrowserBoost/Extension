@@ -7,28 +7,12 @@ export const theme = {
     darkGrey: '#747474',
     borderGrey: '#c7c7c7',
   },
-  selectInput: {
-    border: '1px solid',
-    borderColor: 'borderGrey',
-    backgroundColor: 'offWhite',
-    fontSize: '12px',
-    outline: 'none',
-    transition: '0.2s',
-    ':hover, :focus': {
-      border: '1px solid',
-      borderColor: 'text',
-    },
-  },
-  links: {
-    footer: {
-      cursor: 'pointer',
-      color: 'darkGrey',
-      textDecoration: 'none',
-      transition: '0.2s',
-      ':hover': {
-        textDecoration: 'underline',
-        color: 'text',
-      },
+  breakpoints: ['500px'],
+  text: {
+    heading: {
+      fontFamily: 'inherit',
+      fontWeight: 'heading',
+      lineHeight: 'heading',
     },
   },
 }

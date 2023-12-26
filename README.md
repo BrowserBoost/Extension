@@ -1,65 +1,8 @@
-# Browser Boost Extension
+# React + Vite
 
-**Download:** https://chrome.google.com/webstore/detail/akknpgblpchaoebdoiojonnahhnfgnem
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-The Browser Boost extension provides an open-source, privacy respecting alternative to numerous single-use extensions.
+Currently, two official plugins are available:
 
-You can rely on Browser Boost instead of having to trust multiple extensions from various developers, which are often closed source, collect user data, and come with undocumented permissions.
-
-Browser Boost collects no user data, does not require signup, has no servers, is entirely open source, and is 100% free.
-
-## Tools
-
-🔊 **Boost Volume:** Increase the maximum volume of your browser up to 600%.
-
-🕵️ **Change User Agent:** Spoof user agent to emulate different devices or browsers.
-
-🖱️ **Enable Right Click & Select:** Force enable right clicks, copy, & text selection on sites that have disabled right click or selection interactions.
-
-💾 **Save Image as Type:** Add context menu to save images as JPG, PNG or WebP.
-
-💬 **Disable WebRTC:** Disable WebRTC requests to prevent IP address leaks.
-
-## Screenshot
-
-![screenshot](https://raw.githubusercontent.com/BrowserBoost/extension/master/promo/screenshot2.png)
-
-## Permission Justifications
-
-**tabCapture:** To capture and modify the audio of a tab. Required to boost volume. 
-
-**privacy:** To modify the IPHandlingPolicy. Required to disable WebRTC.
-
-**webNavigation:** To trigger onCommitted and onHistoryStateUpdated listener. Required to change user agent and enable right click & select. 
-
-**scripting:** To inject scripts into webpages. Required to change user agent and enable right click & select. 
-
-**downloads:** To trigger download of modified image. Required to save image as type.
-
-**contextMenus:** To add option to context menu. Required to save image as type.
-
-**offscreen:** To use the tabCapture API and HTML canvas in the background service worker. Required to boost volume and save Image as type. 
-
-**declarativeNetRequestWithHostAccess:** To modify user agent header. Required to change user agent
-
-**storage:** To store user settings.
-
-**Host permission:** To trigger webNavigation on every website. Required to change user agent and enable right click & select. 
-
-## Development
-
-This application is built with Javascript and React.
-
-Clone this repo and run these commands to start the development server.
-
-```
-yarn
-yarn start
-```
-
-Load the extension on Chrome:
-
-- Access chrome://extensions/
-- Check Developer mode
-- Click on Load unpacked extension
-- Select the build folder.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
