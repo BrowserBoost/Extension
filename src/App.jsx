@@ -1,4 +1,4 @@
-import { Flex, Heading, Link, Box, Image } from 'theme-ui'
+import { Flex, Heading, Link, Image } from 'theme-ui'
 import browserBoostLogo from './assets/logo.svg'
 import chromeLogo from './assets/chrome.svg'
 import edgeLogo from './assets/edge.svg'
